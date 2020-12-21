@@ -1,0 +1,252 @@
+
+body{
+  background-image: url("photos/screen2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+h1{
+  position:fixed;
+  top: 70px;
+  left: 400px;
+  filter: saturate(2);
+  box-shadow: 0px 0px 40px 20px #ff91e9;
+
+}
+
+h2{
+  position:fixed;
+top: 450px;
+left: 730px;
+filter: saturate(1.5);
+}
+
+
+h3{
+  position:fixed;
+  top: 10px;
+  left: 960px;
+  filter: saturate(1.6);
+
+}
+
+
+h4{
+  position:fixed;
+  top: 400px;
+  left: 1000px;
+  filter: saturate(1);
+
+}
+
+
+h5{
+  position:fixed;
+  top: 400px;
+  left: 1000px;
+  filter: saturate(1);
+  filter: opacity(0);
+}
+
+h5:hover{
+  position:fixed;
+  top: 400px;
+  left: 1000px;
+  filter: saturate(1);
+  filter: opacity(1);
+}
+
+h6{
+  position:fixed;
+  top: 660px;
+  left: 136px;
+}
+
+h7{
+  position:fixed;
+  top: 730px;
+  left: 1170px;
+  filter: saturate(1.3);
+}
+
+
+h8{
+  position:fixed;
+  top: 500px;
+  left: 260px;
+  filter: saturate(1.3);
+}
+
+h9{
+  position:fixed;
+  top: 650px;
+  left: 590px;
+filter: saturate(1.2);
+}
+
+#click{
+  position:fixed;
+  top: 820px;
+  left: 780px;
+  filter:opacity(0);
+}
+
+#click:hover{
+  position:fixed;
+  top: 790px;
+  left: 810px;
+  filter:opacity(100);
+}
+
+#spark{
+  position:fixed;
+  top: 160px;
+  left: 1270px;
+}
+
+#abc{
+
+    background-image: url("heart.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#desktop{
+
+  position:fixed;
+  top: 70px;
+  left: 400px;
+
+    box-shadow: 0px 0px 40px 20px #0ff;
+    /* in order: x offset, y offset, blur size, spread size, color */
+    /* blur size and spread size are optional (they default to 0) */
+  }
+
+#url4{
+  position: fixed;
+  left: 750px;
+  top:154px;
+  filter: blur(.6px);
+}
+
+#main{
+  position:fixed;
+  top: 238px;
+  left: 400px;
+  filter: saturate(115%);
+
+}
+
+#play{
+  position:fixed;
+  top: 522px;
+  left: 730px;
+}
+
+#play:hover{
+  position:fixed;
+  top: 522px;
+  left: 730px;
+   animation: pulse 2s infinite;
+
+}
+
+
+@keyframes pulse {
+  0% {transform: scale(0.9, 0.9); opacity: 1;}
+     50% {transform: scale(1.2, 1.2); opacity: 1;}
+     100% {transform: scale(0.9, 0.9); opacity: 1;}
+}
+
+#dfg{
+    background-image: url("hill.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#party{
+  position:fixed;
+  top: 50px;
+  left: 520px;
+}
+
+#ria{
+  position:fixed;
+  top: 480px;
+  left: 70px;
+}
+
+#pumcat{
+  position:fixed;
+  top: 680px;
+  left: 1050px;
+}
+
+
+#banan{
+  position:fixed;
+  top: 686px;
+  left: 1210px;
+}
+
+
+#roach{
+  position:fixed;
+  top: 803px;
+  left: 1085px;
+}
+
+#bob{
+  position:fixed;
+  top: 645px;
+  left: 790px;
+}
+
+
+#creeper{
+  position:fixed;
+  top: 645px;
+  left: 1300px;
+}
+
+#alien{
+  position:fixed;
+  top: 620px;
+  left: 490px;
+}
+
+#cheems{
+  position:fixed;
+  top: 770px;
+  left: 300px;
+  animation: pulse 2s infinite;
+}
+
+#xyz{
+  background-image: url("heart.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+#desktop2{
+
+position:fixed;
+top: 70px;
+left: 400px;
+
+  box-shadow: 0px 0px 40px 20px #0ff;
+  /* in order: x offset, y offset, blur size, spread size, color */
+  /* blur size and spread size are optional (they default to 0) */
+}
+
+#video{
+  position:fixed;
+  top: 236px;
+  left: 403px;
+}
